@@ -4,7 +4,12 @@ public class Hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("WTF!");
+		
+		String lyrics="Let it go! Cannot hold it back anymore";
+		
+		lyrics=lyrics.replace("it","her");
+		System.out.println(lyrics.replace("Cannot", "Can't"));
+		
 	}
 
 }
